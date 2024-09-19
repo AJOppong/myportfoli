@@ -1,0 +1,24 @@
+# Ignore WordPress core files and folders
+wp-admin/
+wp-includes/
+
+# Ignore configuration and sensitive files
+wp-config.php
+
+# Ignore uploads and other dynamic content
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore OS-specific hidden files
+.DS_Store
+
+# Ignore database dumps
+*.sql
+
+# Ignore Node and Composer dependencies
+node_modules/
+vendor/
+
+# Ignore log files
+*.log
+
